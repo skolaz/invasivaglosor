@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasiva växter 2025 Växtglosor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card-container">
+        <div id="progress-tracker" class="progress-tracker">Laddar...</div>
+
+        <div id="flashcard" class="flashcard">
+            <div class="card-front">
+                <img id="card-image" src="" alt="Växtbild">
+            </div>
+            <div class="card-back">
+                <p class="name-label">Svenskt namn:</p>
+                <p id="swedish-name" class="plant-name-swe"></p>
+
+                <p class="name-label">Vetenskapligt namn:</p>
+                <p id="latin-name" class="plant-name-latin"></p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="show-answer-btn">Visa Namn</button>
+        </div>
+
+        <div id="answer-controls" class="answer-controls">
+            <button id="fail-btn" class="fail-button">Fel / Öva igen</button>
+            <button id="success-btn" class="success-button">Rätt / Klar</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
