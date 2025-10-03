@@ -36,37 +36,37 @@ const ALL_PLANT_CARDS = [
         swedishName: "jättebalsamin",
         latinName: "Impatiens glandulifera",
         imageFolder: "images/impatiens",
-        description: "xx"
+        description: "Jättebalsamin är en upp till 3 m hög, ettårig ört. Växten är kal med 5–18 cm långa, lansettlika, två motsatta eller tre kransställda, blad med utdragen bladspets (Beerling & Perrins 1993). <br></br> Arten kan knappast förväxlas med någon annan svensk art när den blommar – de två övriga relativt vanliga svenska balsaminerna, springkorn Impatiens noli-tangere och blekbalsamin I. parviflora, är betydligt mer småväxta och har mörkgula respektive ljusgula blommor. <br></br> Jättebalsamin kan bilda utbredda och täta bestånd på fuktig, näringsrik mark längs vattendrag, sjöar, dammar och i diken samt på ruderatmarker kring bebyggelse. Den kan även förekomma på hyggen, i fuktig skog, främst alsumpskog, samt någon gång i kärr. Områden längs vattendrag som översvämmas regelbundet har visat sig ha dubbelt så mycket jättebalsamin som icke översvämmade områden, sannolikt som en följd av effektiv fröspridning med vatten, höga näringshalter och återkommande störning som skapar vegetationsluckor vilka gynnar fröetableringen i de periodvis översvämmade delarna (Cuda m.fl. 2017)"
     },
     {
         swedishName: "blomsterlupin",
         latinName: "Lupinus polyphyllus",
         imageFolder: "images/lupinus",
-        description: "xx"
+        description: "är en flerårig ört som tillhör familjen ärtväxter. Blomsterlupin är en relativt stor och spektakulär art. Den har en tilltryckt hårig stjälk som står upprätt och kan bli över en meter hög. Blomsterlupinen växer i stora mängder längs med vägar och banvallar vilka fungerar som spridningskorridorer i landskapet. Varje individ kan producera flera hundra frön som dessutom är långlivade. Arten lever i symbios med kvävefixerande bakterier vilket ökar dess konkurrenskraft men också förändrar markkemin där den fäller sin förna"
     },
     {
         swedishName: "gul skunkkalla",
         latinName: "Lysichiton americanus",
         imageFolder: "images/lysichiton",
-        description: "xx"
+        description: "Skunkkalla är en långlivad perenn ört som blommar i maj med talrika små gulgröna blommor samlade i en avlång blomkolv som omges av ett klargult, 3–4 dm långt, hölsterblad. Blommorna luktar sötaktigt och lite kvalmigt (Anderberg & Anderberg 2003). Frukterna är små gröna bär, med två frön per bär, som är mogna i juli–augusti. Bladen, som vid blomningen håller på att utvecklas, har en kort stjälk, är tunglika, glansiga samt läderartade och blir upp till 1,5 m långa. Bladen sitter samlade i stora rosetter som kan bilda täta bestånd. <br></br> Arten kan förväxlas med vit skunkkalla L. camtschatcensis som härstammar från nordöstra Asien. Skunkkalla växer i näringsrika sumpskogar (klibbalkärr), dammar, på stränder längs vattendrag och diken samt i kärr (BSBI 2016, CABI 2016). I sitt ursprungsområde växer den i liknande, fuktiga–blöta miljöer, och har ett brett toleransspektrum vad gäller jordmån och ljusförhållanden, från tät skugga till solexponerade miljöer (Klingenstein & Alberternst 2010). Arten sprider sig både vegetativt, genom långsam tillväxt av jordstammen eller med avbrutna stamdelar, och med talrika frön (omkring 1 000 per blomställning)."
     },
     {
         swedishName: "sjögull",
-        latinName: "Nymphoides peltatum",
+        latinName: "Nymphoides peltatum (peltata)",
         imageFolder: "images/nymphoides",
-        description: "xx"
+        description: "Sjögull är en flerårig vattenväxt som tillhör familjen vattenklöverväxter (Menyanthaceae). Flytbladen liknar små näckrosblad och den har attraktiva gula blommor som sitter en och en på skaft som sticker upp någon decimeter ovan vattenytan. Sjögull kan växa på upp till 3 meters djup. Under gynnsamma förhållanden kan den bilda täta mattor på vattenytan och täcka stora ytor."
     },
     {
         swedishName: "parkslide",
         latinName: "Reynoutria japonica",
         imageFolder: "images/reynoutriaj",
-        description: "xx"
+        description: "Parkslide Reynoutria japonica är en flerårig, storväxt, bambu-liknande ört. Den har ett grönt bladverk hela sommaren. Parkslide blommar sent på säsongen, i september–oktober. Arten är skildkönad och endast honindivider är kända från Sverige. Parkslide kan delas in i två varieteter: vanligt parkslide var. japonica och rosenslide var. compacta. Vanligt parkslide var. japonica är den varietet som är storvuxen och problematisk. Vanligt parkslide var. japonica har blad som är cirka 1 decimeter med utdragen spets och tvär bas. I Sverige förekommer parkslide i ängsmark, skogsbryn och på kulturpåverkad mark. I en studie från Norge har man funnit att parkslide främst finns i ruderatmarker eller livsmiljöer som är störda av människan, såsom vägbankar och diken, ödetomter, skogsmarker och runt bostäder. Parkslide har ofta tagit sig dit som rymlingar från trädgårdar eller som rotskott som följt med jordtransporter."
     },
     {
         swedishName: "jätteslide",
         latinName: "Reynoutria sachalinensis",
         imageFolder: "images/reynoutrias",
-        description: "xx"
+        description: "Jätteslide är en flerårig, storväxt ört med bambu-liknande stam som är grov, ihålig och sträcker sig upp till fyra meters höjd. Stammen är ljusgrön eller rödtonad. Stambladen är ganska tunna och stora (20-40 cm långa, ofta 1,5 gånger längre än breda) trubbigt tillspetsade med en markant hjärtformad bas. På bladundersidans nerver finns hår som är upp till 1 mm långa (med upp till 14 celler), böjliga och jämnsmala. Blomningen sker sent på säsongen, i oktober-november, med grönvita blommor. Arten har antingen tvåkönade eller honindivid. <br></br> Klarar av att växa i många olika jordmåner men föredrar frisk till fuktig mark. Förekommer i Sverige främst i ansluning till trädgårdar och infrastukturmiljöer, men förkommer även på sötvattensstränder och i skogsbryn. Jätteslide sprider sig främst vegetativt, klonalt genom expansion av befintliga bestånd eller genom etablering av lösa växtdelar i jordmassor eller rinnande vatten."
     },
     {
         swedishName: "robinia",
@@ -78,25 +78,25 @@ const ALL_PLANT_CARDS = [
         swedishName: "vresros",
         latinName: "Rosa rugosa",
         imageFolder: "images/rosa",
-        description: "xx"
+        description: "Vresros är en rikt grenig och tätt taggig ros med stora (upp till 9 cm breda) vita till mörkt rosa blommor samt stora (2-3 cm breda), från ändarna plattade nypon. Bladen är tjocka och rynkiga, på ovansidan blankt mörkgröna och kala, på undersidan tätt håriga. Foderbladen är hela och kala. Taggarna är oliklånga och raka med luddhårig bas. Den kan bli drygt två meter hög. Arten producerar frukter, nypon, som sprids med fåglar och längs vattendrag. Den reproducerar sig även vegetativt med rhizom och rotfragment. Frukterna sprids lätt med vatten då de tål både söt- och saltvatten. Frukterna från denna art har bättre flytförmåga än många av dess släktingar, detta gör det möjligt för den att sprida sig långa sträckor. Väl rotad bildar den täta bestånd med hjälp av rotskott som också kan bilda nya plantor om de skulle gå av och spridas med, till exempel, vattendrag."
     },
     {
         swedishName: "armeniskt björnbär",
         latinName: "Rubus armeniacus",
         imageFolder: "images/rubus",
-        description: "xx"
+        description: "Ett storvuxet (upp till 4 m högt), delvis vintergrönt äkta björnbär med upp till 3 cm grova och 5 m långa, rödstrimmiga samt bågböjda årsskott som har rikligt med stora (6-11 mm långa), nästan raka, röda taggar. Arten bildar ofta stora, ogenomträngliga snår. Armeniskt björnbär kan förväxlas med många av våra inhemska björnbär. Växer på många typer av öppen till halvöppen, gärna näringsrik mark, som vägkanter, ruderatmarker, gräsmarker, skogsbryn och skogar. Förökar sig snabbt genom både klonal tillväxt (bland annat genom att grenspetsar som når marken rotar sig) och genom de talrika fröna som sprids effektivt med fåglar och mindre däggdjur. Omkring 10 000 frön kan produceras per kvadratmeter och år. Fröna kan överleva flera år men kräver relativt ljusöppna förhållanden för att gro (Florin 2015 och referenser däri). Arten är besvärlig att utrota då den har mycket mycket vasst taggiga skott, ett djupt rotsystem och att mindre jordstamsfragment kan ge upphov till nya plantor."
     },
     {
         swedishName: "kanadensiskt gullris",
         latinName: "Solidago canadensis",
         imageFolder: "images/solidagoc",
-        description: "xx"
+        description: "Kanadensiskt gullris är en flerårig, beståndsbildande ört som kan bli upp till 2 meter hög. Stjälken är styvt upprätt och hårig åtminstone upptill. Rosettblad saknas. Längs stjälken sitter rikligt med strödda, kort- eller oskaftade blad. Bladen är smalt lansettlika med sågad kant. Kanadensiskt gullris är mycket anpassningsbar och kan växa i områden som har skilda närings- och fuktighetsnivåer (Wissman m.fl. 2015). Detta gör att arten kan etablera sig i ett mycket brett spann av habitat, allt från fuktiga strandskogar till torra stäppbiotoper (Nolf m.fl. 2014). Arten kan bli dominant i övergivna åkrar, ängar och dikade våtmarker. "
     },
     {
         swedishName: "höstgullris",
         latinName: "Solidago gigantea",
         imageInBuffer: "images/solidagog",
-        description: "xx"
+        description: "Höstgullris är en flerårig, beståndsbildande ört som blir upp till 2–3 meter hög. Stjälken är styvt upprätt, kal och ofta något blådaggig under blomställningen. Rosettblad saknas. Längs stjälken sitter rikligt av strödda, kort- eller oskaftade blad. Bladen är smalt lansettlika med sågad eller nästan helbräddad kant.Höstgullris är mycket anpassningsbar och kan växa i områden som har skilda närings- och fuktighetsnivåer. Detta gör att arten kan etablera sig i ett mycket brett spann av habitat och hittas i bland annat ohävdade gräsmarker, skogsbryn, längs vattendrag och i ruderata miljöer såsom vägkanter och urbana miljöer (CABI 2025). Övergivna ängar och trädgårdar koloniseras snabbt. "
     },
     {
         swedishName: "klasespirea",
