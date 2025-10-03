@@ -12,7 +12,7 @@ const ALL_PLANT_CARDS = [
         swedishName: "gudaträd",
         latinName: "Ailanthus altissima",
         imageFolder: "images/ailanthus",
-        description: "xx"
+        description: "Är vanligen ett ganska litet, 6–10 meter högt träd men som kan nå 30 meter (CABI 2019). Kan vara mycket snabbväxande med en höjdtillväxt på upp till två meter per år under de första fyra åren (Wikipedia 2019). Bladen är sammansatta och stora (upp till 90 cm långa hos stubbskott) med 5 till 20 par småblad (Mitchell & Wilkinson 1983). Arten växer normalt i friska, näringsrika och kalkrika miljöer men har visat sig ha en god förmåga att även tolerera och trivas i periodvis torra miljöer som medelhavsklimat. Trädet är också mycket tolerant mot luftföroreningar (planteras idag i Schweiz som stadsträd). Gudaträdet förökar sig med hjälp av både rotskott och frön. Rotskotten kan dyka upp 20–30 m från moderträdet. Mycket svår att bli av med, då den har en enorm förmåga att skjuta nya skott från avkapade stubbar eller efter brand, och kan närmast beskrivas som trädens motsvarighet till parkslide."
     },
     {
         swedishName: "oxbär",
@@ -30,7 +30,7 @@ const ALL_PLANT_CARDS = [
         swedishName: "vattenpest",
         latinName: "Elodea canadensis",
         imageFolder: "images/elodea",
-        description: "xx"
+        description: "Vattenpest är en flerårig men kortlivad vattenväxt som härstammar från tempererade delar av Nordamerika. Den växer helt nedsänkt under vattnet och kan både växa fritt flytande och rotfast. Den kan växa ner till ett par meters djup. Den bildar långa slingor med tätt sittande, smala någon cm långa blad. Växten är dioik (har skilda han- och honplantor). "
     },
     {
         swedishName: "jättebalsamin",
@@ -102,13 +102,13 @@ const ALL_PLANT_CARDS = [
         swedishName: "klasespirea",
         latinName: "Spiraea × billardii",
         imageFolder: "images/spiraea",
-        description: "xx"
+        description: "5e bilden är tagen av McClure."
     },
     {
         swedishName: "snöbär",
         latinName: "Symphoricarpus albus",
         imageFolder: "images/symp",
-        description: "xx"
+        description: "Snöbär är 1-3 meter hög buske med vita bär. Bären äts inte av fåglar, troligen på grund av att de smakar illa och har en oattraktiv färg. Arten har måttligt hög ekologisk effekt, den bildar täta bestånd och tål både skugga och solöppet. Den sprider sig allt mer ut i naturliga miljöer. Snöbär kommer att bli ett allt större problem i framtiden, den sprider sig långsamt, men desto mer effektivt."
     },
     {
         swedishName: "häckberberis",
