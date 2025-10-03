@@ -6,7 +6,7 @@ const ALL_PLANT_CARDS = [
         swedishName: "tysklönn",
         latinName: "Acer pseudoplatanus",
         imageFolder: "images/acer",
-        description: "Höjd: 15–25 m. Blommar i maj. Sprids via vingförsedda frön. Aggressiv invasiv art i vissa områden."
+        description: "..."
     },
     {
         swedishName: "gudaträd",
