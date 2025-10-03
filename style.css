@@ -1,3 +1,4 @@
+/* Ersätt ALLT i din style.css med denna kod: */
 body {
     font-family: sans-serif;
     display: flex;
@@ -16,7 +17,7 @@ body {
     max-width: 400px;
 }
 
-/* Nytt: Progress Tracker */
+/* Progress Tracker */
 .progress-tracker {
     margin-bottom: 15px;
     font-size: 1.1em;
@@ -24,15 +25,72 @@ body {
     color: #333;
 }
 
+/* Kontrollknapparna högst upp (Visa Namn / Rätt-Fel) */
+.top-controls {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
 
-/* Flashcard-magi */
+/* Knappar */
+.controls, .answer-controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.answer-controls {
+    display: none; 
+}
+
+.answer-controls.visible {
+    display: flex; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    background-color: #007bff; /* Standardfärg för "Visa Namn" */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Färgstilar för Rätt/Fel-knapparna */
+.success-button {
+    background-color: #28a745; 
+}
+
+.success-button:hover {
+    background-color: #1e7e34;
+}
+
+.fail-button {
+    background-color: #dc3545; 
+}
+
+.fail-button:hover {
+    background-color: #c82333;
+}
+
+/* FLASHCARD MAGI: FIXAR VÄNDNINGEN */
 .flashcard {
     width: 100%;
     height: 400px;
     position: relative;
-    transform-style: preserve-3d;
+    
+    /* KRITISK: Skapar 3D-utrymme och lägger till prefix */
+    -webkit-transform-style: preserve-3d; 
+    transform-style: preserve-3d; 
+    
     transition: transform 0.6s;
-    cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -44,36 +102,84 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    
+    /* KRITISK: Döljer den vända sidan och lägger till prefix */
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden; 
+    
+    /* SÄKERHET: Tvingar rotation från mitten */
+    transform-origin: center center;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     background-color: white;
-    box-sizing: border-box;
-    padding: 20px;
+    box-sizing: border-box; 
+    padding: 0; 
+}
+
+/* Framsidans Bild och Karusell */
+.card-front { 
+    overflow: hidden;
 }
 
 .card-front img {
     max-width: 100%;
     max-height: 100%;
+    width: 100%; 
+    height: 100%;
     object-fit: contain;
     border-radius: 8px;
 }
 
+/* Karusellknapparna på bilden */
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    z-index: 10;
+    border-radius: 5px;
+    line-height: 1;
+    width: auto;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Baksidan */
 .card-back {
-    transform: rotateY(180deg);
-    background-color: #4CAF50; /* Grön färg för svaret */
+    /* KRITISK: Roterar baksidan initialt */
+    transform: rotateY(180deg); 
+    
+    background-color: #4CAF50; 
     color: white;
     font-size: 1.2em; 
     text-align: center;
-    flex-direction: column; /* Gör att elementen staplas vertikalt */
+    flex-direction: column; 
+    padding: 50px 15px; 
+    justify-content: center; 
 }
 
-/* Stilar för två namn på baksidan */
+/* Stilar för namn på baksidan */
 .name-label {
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
     font-size: 0.8em;
     font-weight: normal;
     text-transform: uppercase;
@@ -89,56 +195,32 @@ body {
 .plant-name-latin {
     font-size: 1.2em;
     font-style: italic;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
-/* Knappar */
-.controls {
+/* Beskrivningssektion under kortet */
+.description-section {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
     margin-top: 20px;
-    display: flex;
-    gap: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    text-align: center;
 }
 
-/* Nytt: Svarsknappar visas bara när man vänt kortet */
-.answer-controls {
-    margin-top: 20px;
-    display: none; /* Dölj dem initialt */
-    gap: 10px;
+.description-label {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    text-transform: uppercase;
 }
 
-.answer-controls.visible {
-    display: flex; /* Visa dem när klassen läggs till i JavaScript */
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    color: white;
-    /* Standardfärg för "Visa Namn" */
-    background-color: #007bff; 
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Nytt: Färgstilar för Rätt/Fel-knapparna */
-.success-button {
-    background-color: #28a745; /* Grön */
-}
-
-.success-button:hover {
-    background-color: #1e7e34;
-}
-
-.fail-button {
-    background-color: #dc3545; /* Röd */
-}
-
-.fail-button:hover {
-    background-color: #c82333;
+#description-text {
+    font-size: 0.95em;
+    color: #333;
+    line-height: 1.4;
+    white-space: pre-wrap; 
 }

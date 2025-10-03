@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invasiva växter 2025 Växtglosor</title>
+    <title>Latinska Växtglosor</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,10 +11,23 @@
     <div class="card-container">
         <div id="progress-tracker" class="progress-tracker">Laddar...</div>
 
+        <div class="top-controls">
+            <div class="controls">
+                <button id="show-answer-btn">Visa Namn</button>
+            </div>
+            <div id="answer-controls" class="answer-controls">
+                <button id="fail-btn" class="fail-button">Fel / Öva igen</button>
+                <button id="success-btn" class="success-button">Rätt / Klar</button>
+            </div>
+        </div>
+
         <div id="flashcard" class="flashcard">
             <div class="card-front">
                 <img id="card-image" src="" alt="Växtbild">
+                <button id="prev-image-btn" class="carousel-btn prev-btn">❮</button>
+                <button id="next-image-btn" class="carousel-btn next-btn">❯</button>
             </div>
+            
             <div class="card-back">
                 <p class="name-label">Svenskt namn:</p>
                 <p id="swedish-name" class="plant-name-swe"></p>
@@ -24,13 +37,9 @@
             </div>
         </div>
 
-        <div class="controls">
-            <button id="show-answer-btn">Visa Namn</button>
-        </div>
-
-        <div id="answer-controls" class="answer-controls">
-            <button id="fail-btn" class="fail-button">Fel / Öva igen</button>
-            <button id="success-btn" class="success-button">Rätt / Klar</button>
+        <div class="description-section">
+            <p class="name-label description-label">Info</p>
+            <p id="description-text"></p>
         </div>
 
     </div>
