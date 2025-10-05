@@ -95,7 +95,7 @@ const ALL_PLANT_CARDS = [
     {
         swedishName: "höstgullris",
         latinName: "Solidago gigantea",
-        imageInBuffer: "images/solidagog",
+        imageFolder: "images/solidagog",
         description: "Höstgullris är en flerårig, beståndsbildande ört som blir upp till 2–3 meter hög. Stjälken är styvt upprätt, kal och ofta något blådaggig under blomställningen. Rosettblad saknas. Längs stjälken sitter rikligt av strödda, kort- eller oskaftade blad. Bladen är smalt lansettlika med sågad eller nästan helbräddad kant.Höstgullris är mycket anpassningsbar och kan växa i områden som har skilda närings- och fuktighetsnivåer. Detta gör att arten kan etablera sig i ett mycket brett spann av habitat och hittas i bland annat ohävdade gräsmarker, skogsbryn, längs vattendrag och i ruderata miljöer såsom vägkanter och urbana miljöer (CABI 2025). Övergivna ängar och trädgårdar koloniseras snabbt. "
     },
     {
@@ -139,6 +139,7 @@ const cardImage = document.getElementById('card-image');
 const swedishNameEl = document.getElementById('swedish-name');
 const latinNameEl = document.getElementById('latin-name');
 const descriptionEl = document.getElementById('description-text'); 
+const descriptionSection = document.querySelector('.description-section');
 
 const progressTracker = document.getElementById('progress-tracker'); 
 const showAnswerBtn = document.getElementById('show-answer-btn');
@@ -206,8 +207,9 @@ function displayCard() {
     currentImageIndex = 1;
     loadImage(currentImageIndex); 
 
-    // Sätter in beskrivning (Visas under kortet)
-    descriptionEl.textContent = card.description;
+    // Sätter in beskrivning (Visas under kortet)
+    descriptionEl.innerHTML = card.description; // Använd innerHTML för att <br> ska fungera
+    descriptionSection.classList.remove('visible'); // <-- LÄGG TILL: Återställer till stängt läge
 
     // Återställ kortets tillstånd
     flashcard.classList.remove('flipped');
@@ -289,6 +291,11 @@ prevImageBtn.addEventListener('click', () => {
     if (currentImageIndex > 1) {
         loadImage(currentImageIndex - 1);
     }
+});
+
+// LÄGG TILL DETTA BLOCK: Hanterar klick för att visa/dölja beskrivning
+descriptionSection.addEventListener('click', () => {
+    descriptionSection.classList.toggle('visible');
 });
 
 successBtn.addEventListener('click', handleSuccess);
