@@ -52,7 +52,7 @@ const ALL_PLANT_CARDS = [
     },
     {
         swedishName: "sjögull",
-        latinName: "Nymphoides peltatum (peltata)",
+        latinName: "Nymphoides peltata",
         imageFolder: "images/nymphoides",
         description: "Sjögull är en flerårig vattenväxt som tillhör familjen vattenklöverväxter (Menyanthaceae). Flytbladen liknar små näckrosblad och den har attraktiva gula blommor som sitter en och en på skaft som sticker upp någon decimeter ovan vattenytan. <br></br> Sjögull kan växa på upp till 3 meters djup. Sjögull bildar täta mattor på vattenytan som inte släpper igenom något ljus. Arten konkurrerar ut all annan vegetation. Den täta vegetationen orsakar syrebrist på botten och påverkar även djurlivet. Sjögull introducerades i Sverige under 1870-tal. Arten planteras dels för prydnad i trädgårdsdammar och i vattendrag vid strandtomter. Arten har även planterats med syftet att den täta vegetationen skulle ge skydd åt fiskyngel och därmed ge bättre fiskproduktion. "
     },
@@ -118,7 +118,7 @@ const ALL_PLANT_CARDS = [
     },
     {
         swedishName: "hybridslide",
-        latinName: "Fallopia × bohemica (Reynoutria x bohemica)",
+        latinName: "Reynoutria x bohemica",
         imageFolder: "images/fallopia",
         description: "Hybridslide är en flerårig, storväxt ört med bambu-liknande stam och som är intermediär i de flesta karaktärer mellan föräldraarterna vanligt parkslide Reynoutria japonica var. japonica och jätteslide R. sachalinensis. Stjälkarna är grova, ihåliga och sträcker sig upp till fyra meters höjd. Stammen är ljusgrön med brunröda fläckar. Stambladen är ganska styva och stora (20–35 cm långa, ofta 1,5 gånger längre än breda) med oftast grunt hjärtformad bas och en utdragen bladspets. <br></br> Hybridslide skiljer sig från vanligt parkslide genom att ha större blad, vanligen 20–35 cm långa, och tydligt längre än breda, mot 5–15 cm hos parkslide (rosenslide var. compacta har ännu mindre blad som är ca 6 cm långa och lika långa som breda). Bladen har ofta en grunt hjärtformad bas (men kan även vara tvär som hos parkslide)"
     }
